@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Borders</title>
+    <style>
+        p.one{
+            border-style: dashed;
+        }
+        p.two{
+            border-style: dashed solid;
+        }
+
+        p.three{
+            border-style: dashed solid dotted;
+        }
+
+        p.four{
+            border-style: dashed solid dotted double;
+        }
+
+        p#borderSH{
+            border: 3px solid violet;
+            padding: 10px;
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Individual Border Slides</h2>
+    <p class="one">1 Border Style</p>
+    <p class="two">2 different Border Styles</p>
+    <p class="three">3 different Border Styles</p>
+    <p class="four">4 different Border Styles</p>
+
+    <h2>The border Property</h2>
+
+   <p id="borderSH">This property is a shorthand property for border-width, border-style, and border-color.</p>
+</body>
+</html>
